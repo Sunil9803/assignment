@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profile Cards</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <h1>Meet the Team</h1>
+
+  <div class="buttons">
+    <button onclick="switchStyle('style1')">Style 1</button>
+    <button onclick="switchStyle('style2')">Style 2</button>
+    <button onclick="switchStyle('style3')">Style 3</button>
+  </div>
+
+  <div id="card-container" class="card-container style1">
+    <div class="card">
+      <img src="photos/image_2.webp" alt="Profile 1">
+      <h2>Alice</h2>
+      <ul>
+        <li>Loves painting</li>
+        <li>Plays guitar</li>
+        <li>Has a dog named Pixel</li>
+      </ul>
+    </div>
+    <div class="card">
+      <img src="photos/image_1.jpg" alt="Profile 2">
+      <h2>Sunil</h2>
+      <ul>
+        <li>Speaks 3 languages</li>
+        <li>Enjoys coding</li>
+        <li>Plays soccer</li>
+      </ul>
+    </div>
+    <div class="card">
+      <img src="photos/image_3.png" alt="Profile 3">
+      <h2>Clara</h2>
+      <ul>
+        <li>Reads mystery novels</li>
+        <li>Loves sushi</li>
+        <li>Wants to travel the world</li>
+      </ul>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
